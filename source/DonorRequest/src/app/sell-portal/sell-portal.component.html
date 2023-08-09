@@ -1,0 +1,63 @@
+<div class="d-flex align-items-center" style="margin-top: 16px">
+  <h2>Your products</h2>
+  <div class="d-inline-block ms-auto">
+    <button class="btn btn-primary" [routerLink]="['add-product']" mat-button>
+      Add Product
+    </button>
+  </div>
+</div>
+<div class="row" *ngIf="!loading">
+  <div class="col-12 col-md-4 col-lg-3 mt-4" *ngFor="let product of products">
+    <div class="card">
+      <img
+        [src]="product.image"
+        class="card-img-top w-auto"
+        alt="..."
+        style="height: 200px"
+      />
+      <div class="card-body">
+        <div class="d-flex">
+          <h5 style="font-size: 20px">{{ product.name }}</h5>
+        </div>
+        <h5 class="sleek-box d-inline-block" style="font-size: 10px">
+          {{ product.category }}
+        </h5>
+        <p class="card-text cut-text-three-dots">{{ product.description }}</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex" style="padding: 0px !important">
+          <div
+            class="d-inline-block"
+            style="border-right: 1px solid #dfdfdf; padding: 8px 16px"
+          >
+            &#8377; {{ product.price }}
+          </div>
+          <div class="d-inline-block" style="padding: 8px 16px">
+            <div class="d-flex align-items-center">
+              <span
+                *ngFor="let rating of [1, 2, 3, 4, 5]"
+                class="material-icons-outlined rating-stars"
+                style="font-size: 18px"
+              >
+                {{ rating > product.review ? "star_outline" : "star" }}
+              </span>
+              &nbsp; ({{ product.reviewcount }})
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item">
+          Sold {{ product.soldQuantity }} out of {{ product.quantity }}
+        </li>
+      </ul>
+      <div class="card-body" style="padding: 0rem 1rem">
+        <div class="d-inline-block" style="margin-top: 16px">
+          <button class="btn btn-primary btn-sm" mat-button>Edit</button>
+        </div>
+        <div class="d-inline-block" style="margin: 16px 8px">
+          <button class="btn btn-danger btn-sm" mat-button>Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<mat-spinner mode="indeterminate" *ngIf="loading"></mat-spinner>

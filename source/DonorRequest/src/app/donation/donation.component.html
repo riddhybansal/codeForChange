@@ -1,0 +1,28 @@
+<h2 style="margin-top:16px;margin-left:20px">Donate money and goods to the needful!</h2>
+<div class="topnav row">
+  <div class="col-md-6 " style="margin-top:16px" role="search">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+  </div>
+  <div class="col-md-6" style="margin-top:16px">
+    <button class="btn ms-auto btn-primary donate-reusable " [routerLink]='["request-donation"]'>Request for
+      Donation</button>
+  </div>
+</div>
+<div class="h-90" *ngIf="!loading">
+  <div class="d-flex align-items-center px-2" >
+    <div class="row">
+      <div class="px-2 col-12 col-md-6 col-lg-4 col-xl-3" style="margin-top:30px" *ngFor="let donation of donations">
+        <div class="card" >
+          <img class="card-img-top" [src]="donation.img" alt="Donations">
+          <div class="card-body">
+            <h5 class="card-title">{{donation.title}}</h5>
+            <p class="card-text">{{donation.desc}}</p>
+            <button href="#" class="btn-sm btn-primary">View more</button>
+            <button href="#" class="btn-sm btn-primary mx-2">Donate Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<mat-spinner mode="indeterminate" *ngIf="loading"></mat-spinner>

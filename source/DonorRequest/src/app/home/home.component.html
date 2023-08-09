@@ -1,0 +1,74 @@
+<div  style="background-image: url(../assets/img/header-bg.jpg); min-height: calc(100vh - 32px);">
+  <!-- <img src="../assets/img/header-bg.jpg" class="home-bg-image"> -->
+  <div class="row mx-4 align-items-center px-2"style="min-height:calc(100vh - 88px)">
+    <div class="px-2 col-12 col-md-6 col-lg-4 col-xl-3 mt-4">
+      <mat-card class="example-card box-shadow-card d-flex flex-column" style="height:400px;background-color: #f2f2f2de;">
+        <img style="height:75px;width:75px ;margin-top:8px" src="../assets/img/presentation.png" alt="Training">
+        <mat-card-title style="padding-top:24px;font-size:21px">Training</mat-card-title>
+        <mat-card-content class=" h-100 d-flex justify-content-center py-2">
+          <div style="font-family: sans-serif;">
+            89% of homeless women are illiterate,they do not get any money for food and pocket expenses.
+            We majorly focus on providing these women online training using external resources and helps them to get
+            employed
+          </div>
+          
+        </mat-card-content>
+        <mat-card-actions style="margin:0px">
+          <button class="btn btn-primary" mat-button (click)="navigateToTrainings()" >Explore</button>
+        
+      </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="px-2 col-12 col-md-6 col-lg-4 col-xl-3 mt-4">
+      <mat-card class="example-card box-shadow-card d-flex flex-column" style="height:400px;background-color: #f2f2f2de;">
+        <img style="height:75px;width:75px ;margin-top:8px" src="../assets/img/donation.png" alt="Training">
+        <mat-card-title  style="padding-top:24px;font-size:21px">Donation And Fundraiser</mat-card-title>
+        <mat-card-content class="h-100 d-flex justify-content-center py-2">
+          <div style="font-family: sans-serif;">
+            15% of country’s total population experience homelessness in India.There are many ways to push for much-needed reforms: One way is to make a donation.
+            Donate and stand against poverty.
+          </div>
+         
+        </mat-card-content>
+        <mat-card-actions style="margin:0px">
+          <button class="btn btn-primary" [routerLink]='["/donation"]' mat-button>Explore</button>
+        
+      </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="px-2 col-12 col-md-6 col-lg-4 col-xl-3 mt-4">
+      <mat-card class="example-card box-shadow-card d-flex flex-column" style="height:400px ;background-color: #f2f2f2de;">
+        <img style="height:75px;width:75px ;margin-top:8px" src="../assets/img/job.png" alt="Training">
+        <mat-card-title  style="padding-top:24px;font-size:21px">Job Portal</mat-card-title>
+        <mat-card-content class="h-100 d-flex justify-content-center py-2">
+          <div style="font-family: sans-serif;">
+            To bridge the gap between those in need of job and  those willing to give. We leverage innovative technology to
+            facilitate one-to-one connections between job seekers and the vacancies available in different organizations. 
+          </div>
+          
+        </mat-card-content>
+        <mat-card-actions style="margin:0px">
+          <button class="btn btn-primary"[routerLink]='["employment"]' mat-button>Explore</button>
+        
+      </mat-card-actions>
+      </mat-card>
+    </div>
+    <div class="px-2 col-12 col-md-6 col-lg-4 col-xl-3 mt-4">
+      <mat-card class="example-card box-shadow-card d-flex flex-column" style="height:400px;background-color: #f2f2f2de;">
+        <img style="height:75px;width:75px ;margin-top:8px" src="../assets/img/contract.png" alt="Training">
+        <mat-card-title  style="padding-top:24px;font-size:21px">Self Employment</mat-card-title>
+        <mat-card-content class="h-100 d-flex justify-content-center py-2">
+          <div style="font-family: sans-serif;">
+            The combined factors of illiteracy,old age and language limitations makes it difficult for the homeless
+            women to find many work option that offers them enough for a living.
+            We majorly focus on providing online training  and helps them to get employed.
+          </div>
+        </mat-card-content>
+        <mat-card-actions style="margin:0px">
+          <button class="btn btn-primary" [routerLink]='["/sell"]' mat-button>Explore</button>
+        
+      </mat-card-actions>
+      </mat-card>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,40 @@
+.topnav {
+    overflow: hidden;
+    padding-left: 20px;
+  }
+
+  .searchbar{
+    background-color: #e9e9e9;
+    height: 40px;
+    width: 400px;
+  }
+
+  .donate{
+    position: relative;
+    left: 40px;
+    background-color: green;
+    border: green;
+  }
+
+  .donate-reusable{
+    background-color: yellowgreen;
+    border-color: yellowgreen;
+}
+
+
+.cut-text-three-dots {
+  text-overflow: ellipsis !important;
+  overflow : hidden !important;
+  width : 100% !important;
+  white-space : nowrap !important;
+  
+  }
+  .card-img-top{
+    height:180px;
+  }
+  mat-spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }

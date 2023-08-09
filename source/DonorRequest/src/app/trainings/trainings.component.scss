@@ -1,0 +1,55 @@
+.main-component {
+  margin: 16px 0;
+
+  .title-header {
+    font-size: 30px;
+    vertical-align: middle;
+    margin-left: 5px;
+  }
+
+  .black-bar {
+    background-color: black;
+    width: 5px;
+    margin-right: 12px;
+  }
+  .training-category {
+    height: 75px;
+  }
+
+  .training-card {
+    height: 350px;
+    background-color: #f2f2f2de;
+  }
+
+  .training-img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 8px;
+  }
+  .image-div {
+    height: 80px;
+  }
+  mat-card-title {
+    padding-top: 24px;
+    font-size: 21px;
+  }
+  .desc {
+    font-family: sans-serif;
+  }
+  .certi-img {
+    height: 75px;
+    width: 75px;
+    margin-top: 8px;
+  }
+}
+
+mat-spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card-img-top {
+  min-height: 250px;
+}

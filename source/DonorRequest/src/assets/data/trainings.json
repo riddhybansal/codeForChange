@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Sales",
+    "desc": "The Goal of the Best Sales Training. Most sales training boils down to one overarching desired result: Increase revenue and/or improve margins.",
+    "duration": "100hrs",
+    "img": "../assets/img/Sales.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Developer",
+    "desc": "Programming involves tasks such as analysis, generating algorithms, profiling algorithms accuracy and resource consumption, and the implementation. ",
+    "duration": "120hrs",
+    "img": "../assets/img/programming.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Administration",
+    "desc": "Administration refers to the group of individuals who are in charge of creating and enforcing rules and regulations and complete it.",
+    "duration": "80hrs",
+    "img": "../assets/img/admin.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Advanced Administration",
+    "desc": "Administration refers to the group of individuals who are in charge of creating and enforcing rules and regulations and complete it.",
+    "duration": "80hrs",
+    "img": "https://www.lawdonut.co.uk/business/sites/lawdonut-business/files/production/image/companyadministrationfaqs_140073595.jpg"
+  }
+]

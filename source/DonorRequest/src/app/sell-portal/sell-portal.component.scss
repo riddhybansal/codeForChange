@@ -1,0 +1,30 @@
+.add-button {
+  border: 1px solid #7029b7 !important;
+  color: #7029b7;
+  background-color: white;
+  line-height: 34px;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 108px;
+  border: none;
+}
+
+.rating-stars {
+  color: #ffa41c;
+}
+
+.cut-text-three-dots {
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  width: 100% !important;
+  white-space: nowrap !important;
+}
+
+mat-spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

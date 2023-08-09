@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Programming",
+    "desc": "Get certified and build your skill set to match the in-market development projects.",
+    "testDuration": "40mins",
+    "img": "../assets/img/programming.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Administration",
+    "desc": "Get certified and build your skill set to match the in-market administration projects in mutliple industries like, health, IT, Textiles and more",
+    "testDuration": "15mins",
+    "img": "../assets/img/admin.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Sales",
+    "desc": "Get certified and build your skill set to match the in-market Sales projects in mutliple industries like, IT, Textiles, Retail and more",
+    "testDuration": "120mins",
+    "img": "../assets/img/Sales.jpg"
+  }
+]

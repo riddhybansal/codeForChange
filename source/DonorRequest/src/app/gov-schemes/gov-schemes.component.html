@@ -1,0 +1,20 @@
+<div class="d-flex justify-content-center align-items-center">
+    <h1 class="mt-4 heading ">What Are the Women Empowerment Schemes in India?</h1>
+</div>
+
+<div class="row" *ngIf="!loading">
+    <div class="col-12 col-md-6 col-lg-6 col-xl-4" *ngFor="let scheme of schemes">
+      <div class="card d-flex flex-column mt-4 mb-2" style="height:610px">
+        <img class="card-img-top" [src]="scheme.img" alt="Training">
+        <div class="card-body h-100">
+          <h2 class="card-title">{{scheme.name}}</h2>
+          <p class="card-text"> {{ scheme.desc }}</p>
+        </div>
+        <div class="d-flex  align-items-center" style="padding: 1rem 1rem">
+          <span>Launched Year:{{ scheme.launched }}</span>
+        <button href="#" class="btn-sm btn-primary ms-auto">Explore</button>
+      </div>
+      </div>
+    </div>
+  </div>
+<mat-spinner mode="indeterminate" *ngIf="loading"></mat-spinner>

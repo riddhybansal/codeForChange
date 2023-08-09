@@ -1,0 +1,61 @@
+<div *ngIf="!loading" class="main-component p-3">
+  <!-- Trainings  -->
+  <div class="d-flex flex-row bd-highlight mb-3 ml-10 training-category">
+    <div class="mr-2 black-bar"></div>
+    <img
+      src="../assets/img/presentation.png"
+      alt="Training"
+      class="img-fluid"
+    />
+    <p class="mt-4 title-header">Trainings</p>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3" *ngFor="let training of trainings">
+      <div class="card d-flex flex-column mt-4" style="height:500px">
+        <img class="card-img-top" [src]="training.img" alt="Training">
+        <div class="card-body h-100">
+          <h2 class="card-title">{{training.name}}</h2>
+          <p class="card-text"> {{ training.desc }}</p>
+        </div>
+        <div class="d-flex  align-items-center" style="padding: 1rem 1rem">
+          <span>Duration:{{ training.duration }}</span>
+        <button href="#" class="btn-sm btn-primary ms-auto">Learn</button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br />
+  <!-- Certification -->
+
+  <div class="d-flex flex-row bd-highlight mb-3 ml-10 training-category">
+    <div class="mr-2 black-bar"></div>
+    <img
+      class="w-75"
+      src="../assets/img/certificate.jpg"
+      alt="Certification"
+      class="img-fluid bg-light"
+    />
+    <p class="mt-4 title-header">Certifications</p>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3" *ngFor="let certi of certifications">
+      <mat-card class="d-flex flex-column m-2 training-card">
+        <img class="certi-img" [src]="certi.img" alt="certification" />
+        <mat-card-title>{{ certi.name }}</mat-card-title>
+        <mat-card-content class="h-100 d-flex justify-content-center py-2">
+          <div class="desc">
+            {{ certi.desc }}
+          </div>
+        </mat-card-content>
+        <mat-card-actions class="d-flex justify-content-between m-0">
+          <h5>Test Duration:{{ certi.testDuration }}</h5>
+          <button class="btn btn-dark btn-sm" mat-button>
+            Take Certification
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>
+<mat-spinner mode="indeterminate" *ngIf="loading"></mat-spinner>

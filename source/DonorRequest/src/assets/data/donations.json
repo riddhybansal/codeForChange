@@ -1,0 +1,26 @@
+[
+  {
+    "donationId": "D001",
+    "img": "assets/img/Pregnant-woman.jpg",
+    "title": "Donation to provide nutritious food for pregnant woman in Bihar",
+    "desc": "85% of of women give birth to low weight babies in Bihar due to poor nutrition.Low birth weight (LBW)remains a significant ......."
+  },
+  {
+    "donationId": "D002",
+    "img": "assets/img/Teen-Children.jpg",
+    "title": "Donate sanitary pads to these youngs girls in Assam",
+    "desc": "Many young girls in Assam lack menstrual hygiene due to the scarcity of resources and unaware of sanitary pads and menstural hygiene....."
+  },
+  {
+    "donationId": "D003",
+    "img": "assets/img/old-woman.jpg",
+    "title": "Donate sweaters to these old women in this chilling",
+    "desc": "Increased morbidity and mortality from cardiovascular and respiratory disease in the elderly is strongly associated with the coldness they feel..."
+  },
+  {
+    "donationId": "D004",
+    "img": "assets/img/woman.jfif",
+    "title": "Donate sweaters to these old women in this chilling  winter",
+    "desc": "Increased morbidity and mortality from cardiovascular and respiratory disease in the elderly is strongly associated with the coldness they feel"
+  }
+]

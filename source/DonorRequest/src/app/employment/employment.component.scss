@@ -1,0 +1,90 @@
+.job-details{
+    .title{
+        font-size: x-large;
+
+    }
+    .organization-name{
+        font-size: medium;
+        padding-top:8px;
+        div{
+            padding: 4px 0px 0px;
+            .mat-icon{
+                font-size: 18px;
+            }
+        }
+    }
+    .description{
+        font-size: medium;
+        padding-top:8px
+
+    }
+    .location{
+        font-size: medium;
+        padding-top:8px;
+        div{
+            padding: 4px 0px 0px;
+            .mat-icon{
+                height: 18px;
+                width: 18px;
+                font-size: 18px;
+            }
+        }
+    }
+    .job-type{
+        font-size: small;
+        padding-top:8px
+
+    }
+    .job-salary{
+        font-size: medium;
+        padding-top:8px;
+
+    }
+
+    .skill-tags{
+        margin:0px -8px;
+        padding: 8px 0px 0px;
+        div{
+            padding:0px 8px ;
+            div{
+                padding: 0px 8px;
+                border:1px solid #dadada;
+                border-radius:4px
+            }
+        }
+    }
+}
+
+.job{
+    border: 1px solid #212529;
+    margin: 16px 0px 0px;
+    border-radius: 4px;
+}
+
+.apply-button{
+    background-color: #4285f4;
+    color: #fff;
+    line-height: 24px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 75px;
+    border: none;
+}
+
+.cut-text-three-dots {
+    text-overflow: ellipsis !important;
+    overflow : hidden !important;
+    width : 100% !important;
+    white-space : nowrap !important;
+    
+    }
+
+    mat-spinner {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      

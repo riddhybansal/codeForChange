@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'material-icons/iconfont/material-icons.css';
+
+.main-content{
+    padding:56px 20px 0px !important
+}
+
+.pad16{
+    padding:16px;
+}
+
+.padL16{
+    padding-left:16px;
+}
+
+.padR16{
+    padding-right:16px;
+}
+
+.padLR16{
+    padding-left:16px;
+    padding-right:16px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.sleek-box{
+    padding: 0px 8px;
+    border:1px solid #dadada;
+    border-radius:4px
+}

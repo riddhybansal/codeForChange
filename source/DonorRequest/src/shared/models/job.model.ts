@@ -1,0 +1,15 @@
+export interface IJob{
+    id?:string,
+    logo?:string,
+    title?:string,
+    description?:string,
+    location?:string,
+    city?:string,
+    state?:string,
+    jobType?:string,
+    organizationName?:string,
+    skillTags? : string,
+    minSalary?:string,
+    maxSalary?:string,
+    salaryUnit?:string,
+}

@@ -1,0 +1,12 @@
+<div class="header navbar navbar-dark bg-dark  d-flex align-items-center" [ngClass]="{'transparent-background':transparentHeader}">
+  <a href="#default" class="logo">Charitable</a>
+  <div class="header-right ms-auto">
+    <a [routerLink]='["govt-schemes"]'>Govt Schemes</a>
+  </div> 
+</div>
+<div [ngClass]="{'main-content':!isHomeComponent,'home-component-bg':isHomeComponent}">
+<router-outlet></router-outlet>
+</div>
+<div class="footer d-flex justify-content-center align-items-center font-footer">
+  © Code For Change, Infosys 2022
+</div>

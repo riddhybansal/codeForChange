@@ -1,0 +1,61 @@
+[
+    {
+      "id": "1",
+      "name": "Beti Bachao Beti Padhao Scheme",
+      "desc": "The Beti Bachao Beti Padhao Yojana is a national initiative run jointly by the Ministry of Women & Child Development (MoWCD), Ministry of Health & Family Welfare (MoH&FW) and Ministry of Human Resources Development (MoHRD). Each body is accountable for different aspects of the scheme.",
+      "launched": "2015",
+      "img": "../assets/img/Betibachao.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Swadhar Greh",
+      "desc": "This scheme is meant to provide shelter, food, clothing and care to marginalized women and girls who are in need. The beneficiaries include widows deserted by their families and relatives, women prisoners released from jail and without family support, women survivors of natural disasters, women victims of terrorist/extremist violence etc. The implementing agencies are mainly NGOs.",
+      "launched": "2002",
+      "img": "../assets/img/swadhar.jpg"
+    },
+    {
+      "id": "3",
+      "name": "STEP (Support to Training and Employment Program for Women)",
+      "desc": "One of the most effective women empowerment schemes in India is STEP (Support to Training and Employment Program for Women). It was introduced to provide training in skill development and to assure employment to women. This government-backed scheme offers grants to institutions and organisations to conduct the training programme.",
+      "launched": "1987",
+      "img": "../assets/img/STEP.png"
+    },
+    {
+      "id": "4",
+      "name": "Mahila Police Volunteers",
+      "desc": "The Ministry of Women and Child Development, along with Home Affairs, launched the Mahila Police Volunteers scheme in all States and Union Territories. This central government-sponsored scheme aims to create a link between police authorities and local communities to ensure police outreach on crime cases. This scheme works to create a safe woman-friendly environment and encourages women to join the police force.",
+      "launched": "2016",
+      "img": "../assets/img/mahilaPolice.jfif"
+    },
+
+    {
+        "id": "5",
+        "name": "Rajiv Gandhi National Creche Scheme",
+        "desc": "The Ministry of Women and Child Development, along with Home Affairs, launched the Mahila Police Volunteers scheme in all States and Union Territories. This central government-sponsored scheme aims to create a link between police authorities and local communities to ensure police outreach on crime cases. This scheme works to create a safe woman-friendly environment and encourages women to join the police force.",
+        "launched": "2017",
+        "img": "../assets/img/rajivGandhiScheme.jfif"
+      },
+
+      {
+        "id": "6",
+        "name": "Mahila Shakti Kendras (MSK)",
+        "desc": "It aims to provide one-stop convergent support services to women to develop skills, generate employment opportunities, and increase digital literacy. This scheme is operational at multiple levels, such as national level, state level, and district level. The Government intends to cover the 115 most backward districts by establishing 920 Mahila Shakti Kendras.",
+        "launched": "2017",
+        "img": "../assets/img/mahilaShakti.jfif"
+      },
+      {
+        "id": "7",
+        "name": "Mudra Loan for Women",
+        "desc": "Mudra Loan for Women was launched by the government to offer financial support for enthusiastic women entrepreneurs. They seek a business plan like starting a beauty parlour, tuition centre, a stitching shop, etc.Under MUDRA, loans are provided under three schemes namely ‘Shishu’, ‘Kishor’ and ‘Tarun’ to signify the stage of growth and funding needs of the beneficiary micro unit. The prime aim of the loan is to help the Micro & small enterprises in India, which are the backbone of the Indian industry",
+        "launched": "2016",
+        "img": "../assets/img/mudra.jfif"
+      },
+      {
+        "id": "8",
+        "name": "Annapurna Scheme",
+        "desc": "Under the Annapurna Yojana, the Government of India offers women entrepreneurs in food catering businesses loans up to ₹50,000. The borrowed amount could be used for working capital requirements such as buying utensils, mixer cum grinder, hot case, tiffin boxes, working table, etc. After the loan is approved, the lender doesn't have to pay the EMI for the first month. Once sanctioned, the amount has to be repaid in 36 monthly installments.",
+        "launched": "2016",
+        "img": "../assets/img/annapurna.jfif"
+      }
+  ]
+  

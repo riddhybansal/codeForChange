@@ -1,0 +1,50 @@
+
+
+    <h2 style="margin-top:16px;">Recommended jobs for you</h2>
+    <mat-spinner mode="indeterminate"  *ngIf="loading else jobComp"></mat-spinner>
+    <ng-template #jobComp >
+<div *ngFor="let job of jobs">
+    <div class="d-flex job">
+        <div class="p-3 d-flex align-items-center" style="width:150px">
+            <img [src]="job.logo" *ngIf="job.logo" class="h-auto w-100" style="max-height:100%;max-width: 100%;">
+            <ngx-avatar *ngIf="!job.logo" [round]="false" [cornerRadius]="4" [size]="100" [name]="job.organizationName"></ngx-avatar>
+        </div>
+        <div class="p-3 w-100 job-details" style="border-left:1px solid #dadada">
+            <div class="title">{{job.title}}</div>
+            <div class="organization-name d-flex align-items-center">
+                <div class="d-inline-block">
+                    <mat-icon>corporate_fare</mat-icon>
+                </div>
+                {{job.organizationName}}
+            </div>
+            <div class="description">{{job.description}}</div>
+            <div class="location">
+                <div class="d-inline-block">
+                    <mat-icon>location_on</mat-icon>
+                </div>
+                {{job.location}}, {{job.city}}, {{job.state}}
+            </div>
+            <div class="job-type">{{job.jobType}}</div>
+            <div class="job-salary">
+                &#8377; {{job.minSalary}}
+                <ng-container *ngIf="job.maxSalary">
+                    - &#8377; {{job.maxSalary}}
+                </ng-container>
+                per {{job.salaryUnit}}
+            </div>
+            <div class="skill-tags ">
+                <div *ngFor="let tag of getTagArray(job.skillTags!)"class="d-inline-block">
+                    <div class="d-inline-block">
+                        {{tag}}
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 16px;">
+                <button class="btn btn-primary btn-sm" mat-button>Apply</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</ng-template>
